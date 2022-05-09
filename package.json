@@ -1,0 +1,33 @@
+{
+  "name": "ts-node",
+  "version": "1.0.0",
+  "description": "typescript node project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "rimraf ./build && tsc",
+    "prod":  "npm run build && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchu51/ts-node.git"
+  },
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "author": "Jonathan Chueh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchu51/ts-node/issues"
+  },
+  "homepage": "https://github.com/jchu51/ts-node#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "nodemon": "^2.0.16",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
