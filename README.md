@@ -12,7 +12,11 @@ Typescript node project
 
 1. install `typescript` and `@types/node` in `devDependencies`
 2. run `npx tsc -init` to set up `tsconfig.json` file
-3. create `index.ts` file, run `mkdir src && touch src/index.ts`  
-4. test Compiling Typescript `npx tsc` 
+3. create `index.ts` file, run `mkdir src && touch src/index.ts`
+4. test Compiling Typescript `npx tsc`
 5. install `npm install --save-dev ts-node nodemon`
 6. update `package.json` script, `"dev": "nodemon src/index.ts",`
+
+## References
+
+- [How to Setup a TypeScript + Node.js Project](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
